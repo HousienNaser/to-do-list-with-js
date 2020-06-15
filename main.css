@@ -1,0 +1,63 @@
+body{
+   margin:0px;
+    background-color: #04a1bf;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+       font-size:30px;
+       
+}
+header{
+        display:flex;
+       justify-content: center;
+       /* align-items: center;  */      
+}
+h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+}
+/************************************************/
+.enterItem{
+    display:flex;
+    justify-content: center;
+    height: 55px;
+    
+}
+.new{
+    width:55%;
+   border-radius: .5em;
+   border: 1px solid #04a1bf
+
+}
+.insert{
+    border-radius: .5em;
+    width:15%;
+    background-color: #037991;
+    border: 1px solid #04a1bf;
+    margin-left: 1%;
+    color:#fff;
+}
+/***********************************/
+.listSection{
+    display:flex;
+    justify-content: center;
+    margin-top:5%;
+    color:#ffffff;
+}
+.listOfItem{
+    width:55%;
+
+}
+.item{
+    border:1px solid black;
+    color:black;
+}
+
+.notEmpty{
+    border-radius:.3em;
+    background-color: #024d5c;
+    line-height:1.2 ;
+    margin-bottom: 1%;
+    padding: .3em;
+    list-style-type:none;
+}
